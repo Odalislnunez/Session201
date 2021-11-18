@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
             R.id.mySecondOption -> resources.getString(R.string.second_option)
             else -> resources.getString(R.string.third_option)
         }
-        Toast.makeText(this, resources.getString(R.string.option_selected, option), Toast.LENGTH_SHORT).show()
+        Toast.makeText(this, resources.getString(R.string.option_selected) +": " + option, Toast.LENGTH_SHORT).show()
         return super.onOptionsItemSelected(item)
     }
 }
