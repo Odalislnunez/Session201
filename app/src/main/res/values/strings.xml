@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">Session 201</string>
+    <string name="app_name">Master USJ</string>
+    <string name="first_option">First Option</string>
+    <string name="second_option">Second Option</string>
+    <string name="third_option">Third Option</string>
+    <string name="option_selected">Option Selected</string>
 </resources>
