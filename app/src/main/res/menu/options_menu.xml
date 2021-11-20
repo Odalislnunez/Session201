@@ -6,4 +6,5 @@
     <item android:title="@string/second_option"
         android:id="@+id/mySecondOption"/>
     <item android:title="@string/third_option"
-        android:id="@+id/myThirdOption"/> </menu>
+        android:id="@+id/myThirdOption"/>
+</menu>

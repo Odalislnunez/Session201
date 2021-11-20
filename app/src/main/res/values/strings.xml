@@ -1,7 +1,36 @@
 <resources>
-    <string name="app_name">Master USJ</string>
+    <string name="app_name" translatable="false">Master USJ</string>
     <string name="first_option">First Option</string>
     <string name="second_option">Second Option</string>
     <string name="third_option">Third Option</string>
     <string name="option_selected">Option Selected</string>
+    <string name="camera">Camera</string>
+    <string name="phone">Phone</string>
+    <string name="action_bar_menu">Action Bar Menu</string>
+    <string name="english">English</string>
+    <string name="language">Language</string>
+    <string name="source">Source:</string>
+    <string name="external">External</string>
+    <string name="internal">Internal</string>
+    <string name="pause">Pause</string>
+    <string name="resume">Resume</string>
+    <string name="stop">Stop</string>
+    <string name="start">Start</string>
+    <string name="btnRepeat">Repeat</string>
+    <string name="repeat">Repeat</string>
+    <string name="no_repeat">No repeat</string>
+    <string name="pause_recording">Pause Recording</string>
+    <string name="start_recording">Start Recording</string>
+    <string name="play_recording">Play Recording</string>
+    <string name="ready">Ready to record</string>
+    <string name="playing">Playing</string>
+    <string name="recording">Recording</string>
+    <string name="default_audio_app">Please set a default audio recorder app.</string>
+    <string name="hello_world">Hello World!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="process">Process</string>
+    <string name="result">Result</string>
+    <string name="message">Message</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

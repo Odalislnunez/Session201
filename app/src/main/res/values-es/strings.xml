@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Master USJ</string>
+    <string name="first_option">Primera Opción</string>
+    <string name="second_option">Segunda Opción</string>
+    <string name="third_option">Tercera Opción</string>
+    <string name="option_selected">Opción Seleccionada</string>
+    <string name="camera">Cámara</string>
+    <string name="phone">Teléfono</string>
+    <string name="action_bar_menu">Acción de la barra del Menú</string>
+    <string name="english">Español</string>
+    <string name="language">Lenguaje</string>
+    <string name="source">Fuente:</string>
+    <string name="external">Externo</string>
+    <string name="internal">Interno</string>
+    <string name="pause">Pausa</string>
+    <string name="resume">Resumir</string>
+    <string name="stop">Parar</string>
+    <string name="start">Iniciar</string>
+    <string name="btnRepeat">Repetir</string>
+    <string name="repeat">Repetir</string>
+    <string name="no_repeat">No repetir</string>
+    <string name="pause_recording">Pausar Grabación</string>
+    <string name="start_recording">Iniciar Grabación</string>
+    <string name="play_recording">Reproducir Grabación</string>
+    <string name="ready">Listo para grabar</string>
+    <string name="playing">Reproduciendo</string>
+    <string name="recording">Grabando</string>
+    <string name="default_audio_app">Por favor agrega una aplicación grabador de audio por defecto.</string>
+    <string name="process">Proceso</string>
+    <string name="hello_world">Hola Mundo!</string>
+    <string name="result">Resultado</string>
+    <string name="message">Mensaje</string>
+</resources>
