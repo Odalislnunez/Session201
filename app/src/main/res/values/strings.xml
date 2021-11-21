@@ -27,10 +27,7 @@
     <string name="recording">Recording</string>
     <string name="default_audio_app">Please set a default audio recorder app.</string>
     <string name="hello_world">Hello World!</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="process">Process</string>
     <string name="result">Result</string>
     <string name="message">Message</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

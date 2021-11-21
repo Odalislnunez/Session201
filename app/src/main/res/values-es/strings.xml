@@ -27,8 +27,8 @@
     <string name="playing">Reproduciendo</string>
     <string name="recording">Grabando</string>
     <string name="default_audio_app">Por favor agrega una aplicación grabador de audio por defecto.</string>
-    <string name="process">Proceso</string>
     <string name="hello_world">Hola Mundo!</string>
+    <string name="process">Proceso</string>
     <string name="result">Resultado</string>
     <string name="message">Mensaje</string>
 </resources>
