@@ -8,6 +8,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Environment
 import androidx.core.app.ActivityCompat
+import androidx.core.content.ContextCompat
 import kotlinx.android.synthetic.main.activity_fourth.*
 import java.io.File
 import java.io.IOException
@@ -26,9 +27,8 @@ class FourthActivity : AppCompatActivity(), MediaPlayer.OnCompletionListener {
         btnPlayRecording.setOnClickListener { play() }
         btnStopRecording.setOnClickListener { stop() }
         btnStartRecording.setOnClickListener {
-            if (ActivityCompat.checkSelfPermission(this, Manifest.permission.RECORD_AUDIO) !=
-                PackageManager.PERMISSION_GRANTED
-                && ActivityCompat.checkSelfPermission(this, Manifest.permission.WRITE_EXTERNAL_STORAGE) !=
+            if (ContextCompat.checkSelfPermission(this, Manifest.permission.RECORD_AUDIO) != PackageManager.PERMISSION_GRANTED
+                && ContextCompat.checkSelfPermission(this, Manifest.permission.WRITE_EXTERNAL_STORAGE) !=
                 PackageManager.PERMISSION_GRANTED) {
 
                 ActivityCompat.requestPermissions(this, arrayOf(Manifest.permission.RECORD_AUDIO, Manifest.permission.WRITE_EXTERNAL_STORAGE), RESPONSE)

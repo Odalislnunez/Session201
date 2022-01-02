@@ -14,7 +14,6 @@ import kotlinx.android.synthetic.main.activity_fourth.*
 
 class FifthActivity : AppCompatActivity() {
 
-    val REQUEST = 1
     lateinit var uri : Uri
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -24,7 +23,7 @@ class FifthActivity : AppCompatActivity() {
         btnStartRecording.setOnClickListener {
             try {
                 val intent = Intent(MediaStore.Audio.Media.RECORD_SOUND_ACTION)
-                startActivityForResult(intent, REQUEST)
+                startActivityForResult(intent, 1)
             }
             catch (e: ActivityNotFoundException) {
                 Toast.makeText(this@FifthActivity, R.string.default_audio_app,

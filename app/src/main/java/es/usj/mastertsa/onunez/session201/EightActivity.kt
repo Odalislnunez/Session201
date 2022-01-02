@@ -7,7 +7,7 @@ import es.usj.mastertsa.onunez.session201.fragments.DetailFragment
 import es.usj.mastertsa.onunez.session201.fragments.HeadlinesFragment
 import kotlinx.android.synthetic.main.activity_eight.*
 
-class EighthActivity : AppCompatActivity(), HeadlinesFragment.OnHeadlineSelectedListener {
+class EightActivity : AppCompatActivity(), HeadlinesFragment.OnHeadlineSelectedListener {
 
     public override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
